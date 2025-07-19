@@ -1,0 +1,106 @@
+CIS 181: WEB DEVELOPMENT I 
+FINAL PROJECT 
+FOUR-PAGE (MINIMUM) WEB SITE 
+For your final project, you will be creating a Four-page (minimum) web site devoted to your favorite 
+vacation spot. 
+◼ 
+◼ 
+Main home page (1 page)
+    —This should include 
+        a short intro to the subject and 
+        perhaps a picture or two to get the visitor excited about the subject matter. 
+            
+
+Information (2 or more pages)—
+    Include information on the subject that you feel 
+would be relevant to the user 
+        (history, resources, location, etc.). 
+            pages set up - history, visitor information, chicago river walk, grant park, lakefront
+               
+        
+“About the Web Developer” (1 page)
+    —Should be a short 2-3 paragraph bio of 
+yourself, including your name. 
+    Also mention what drew you to this particular vacation 
+destination. 
+    Include your picture and/or a video clip. 
+       
+
+
+    ************************
+◼ Due date: Friday, July 25, 2025 at the end of class (11:59:00pm) 
+Examples of past final projects are located in Brightspace > Week 2 page 
+***************************
+
+
+------NEXT------
+1. They must share a clear, common navigation scheme (such as an identical list or navigation bar) 
+that appears at the top of each page. 
+
+All links within your web site must use relative paths. 
+
+2. There must be a consistent, easily readable style across all pages, implemented using a single 
+external style sheet 
+
+(or two style sheets since one is a reset style sheet). 
+
+3. Use external CSS only—no inline or embedded style! Your CSS file (excluding the reset style 
+sheet) should be at least 20 lines of code and should reflect that you have spend four or more 
+weeks on this web site. 
+
+
+4. Every page that uses images must properly and clearly credit the sources of the images. 
+    (Publicdomain images may be used with proper citation, but no copyrighted materials may be used 
+without written permission of the owner.) 
+
+5. Every page must have its HTML5 code documented with a comment (one or two sentences long 
+is sufficient) 
+    that describes the page’s content 
+    and purpose in the web site. 
+
+6. At least one page must include a table of some sort that is used for tabular data only (remember 
+your semantic code). Examples of content for the table could include: ticket prices to a tourist 
+destination, airfares, or special events with their dates. 
+Depending on the subject you choose for your web site, this table may be a very natural thing to 
+include, or it may seem somewhat artificial. However, something like this must be a part of your 
+web site to demonstrate your mastery of table elements. If you have trouble thinking of what to 
+do here, contact me. 
+
+
+7. In keeping with SEO practices, every page should contain a descriptive title element, an h1 
+element, and an h2 element.
+
+
+8. Each page must include four or more of the following semantic HTML elements: main, header, 
+footer, nav, aside, article, and section (and you must use these tags correctly!). 
+
+
+9. At least one page must include an image file, and 
+
+at least one page must include a list 
+    (this does 
+not include the page’s navigation). 
+
+10. One of the pages should have a video clip included in it. It could be a direct MP4 or a clip from 
+the internet (YouTube, Vimeo, etc…)  
+
+11. You must change the default link and visited link states – no blue or purple underlined text! 
+
+
+12. Every page’s HTML5 code must be readable and neatly formatted. 
+
+
+13. Pages will be tested in multiple browsers (Microsoft Edge, Firefox, and Google Chrome) and 
+must work in all browsers. 
+
+
+NOTES 
+- Fix navigation bar 
+- Get color dropper for chicago flag and or photos - create a color swatch 
+- check for accessibility of colors 
+- write and add content 
+    - developer page 
+    - history page 
+    - photos for info pages 
+- create video? 
+- manage photo sizes  
