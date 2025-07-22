@@ -5,18 +5,12 @@ html {
 }
 
 body {
-	margin: 0 10px;
-	padding-left: 10%;
-	padding-bottom: 0%;
-	padding-right: 5%;
-	padding-top: 2%;
-	width: 90%;
-	background-color: rgb(127, 120, 233);
+	background-color: rgb(20, 120, 241);
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
-	text-align: left;
 	display: grid;
 	float: left;
+	font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -27,12 +21,13 @@ body > header nav {
 	height: 28px;
 	background-color: #237bc4;
 	border-bottom: 2px solid #0084bf;
+	border: dashed darkblue;
 }
 
 body > header > nav ul li {
 	display: inline;
 	padding-right: 25px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	color: #141414;
 }
 
@@ -40,7 +35,7 @@ body > header > nav ul li a {
 	color: #d3e718;
 	text-decoration: none;
 	letter-spacing: 0.25em;
-	border: black;
+	border: dotted orangered;
 }
 
 body > header > nav ul li a:visited {
@@ -58,53 +53,56 @@ body > header > nav ul li a:active {
 }
 
 img {
-	max-width: 25%;
-	max-height: 25%;
-	display: grid;
+	max-width: 75%;
+	max-height: 75%;
 }
 
 h1 {
 	text-emphasis: strong;
 	text-size-adjust: 2em;
-	text-indent: -5em;
 	color: #141414;
-	border: dotted red;
+	border: dotted rgb(204, 238, 55);
 	text-align: center;
-}
+
 h2 {
-	text-align: left;
+	text-align: start;
 	text-decoration: none;
 	border: dashed green;
+}
+
+main {
+	background-color: #79c3e6;
+	border: dashed silver;
+	text-align: justify;
 }
 
 aside {
 	display: block;
 	border: black;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
 }
 
 h3 {
-	text-align:justify;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	display: grid;
-	float: left;
 	text-decoration: none;
 }
 
 footer {
-	text-align: justify;
+	text-align: start;
 	text-decoration: none;
-	color: #d6da07;
-	background-color: #237bc4;
-	display: flexbox;
-	float: left;
-	margin: 5 0 0 0; 
+	color: #3507da;
+	background-color: #d8e1e7;
+	display: grid;
+	border: dotted blue;
+	margin: 0 0;   
 }
 
 ul {
 	text-decoration: none;
+	border: dashed purple;
+	background-color: #07365a;
 }
 
 li {
 	text-decoration: none;
+	border: dashed palegreen;
 }
