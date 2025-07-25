@@ -59,7 +59,7 @@ header {
 
 img {
 	display: block; 
-	max-inline-size: 100%;
+	max-inline-size: 75%;
 }
 
 video {
