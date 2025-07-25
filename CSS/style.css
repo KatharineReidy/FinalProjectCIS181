@@ -17,7 +17,6 @@ body {
 	line-height: 1.6;
 	padding: 5px;
 	border: dashed aqua;
-	max-inline-size: 1000px;
 	margin-inline: auto;
 }
 
@@ -71,10 +70,12 @@ video {
 h1 {
 	text-emphasis: strong;
 	color: #141414;
+	background-color: rgb(233, 230, 40);
 	border: dotted rgb(204, 238, 55);
 	text-align: center;
 	font-size: 3rem;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
 
 	@media (width > 600px){
 			font-size: 5rem;
@@ -110,14 +111,13 @@ h3 {
 	text-decoration: none;
 }
 
+ul { 
+	list-style: square;
+	margin-left: 70px;
+}
+
 footer {
-	text-align: start;
-	text-decoration: none;
-	color: #0b071bd8;
-	background-color: #11486d;
-	display: grid;
-	border: dotted rgb(198, 241, 78);
-	padding: 50px;  
+	border: dotted rgb(198, 241, 78); 
 }
 
 .two-c {
@@ -133,9 +133,30 @@ footer {
 	}
 }
 
-.weathertable { 
-	background-image: url("CloudyDayChicagoNavyPier.png");
-	border: dashed orangered;
+.weather {
+	background: white blue; 
+	border: 10px outset rgb(153, 0, 153);
+	font-size: .75em;
+	width: 100%;
+	text-align: center;
+	margin-inline: 5px;
+}
+
+th {
+	background-color: #11486d;
+	color: silver;
+	font-weight: 900;
+	border: black double; 
+}
+
+td {
+	text-align: center;
+	border: black double;
+	vertical-align: middle;
+}
+
+td:nth-child(2n+1) {
+	background-color: white; 
 }
 .grey-bg {
 	background-color: grey;
@@ -144,10 +165,13 @@ footer {
 
 .footer {
 	background-color: #79c3e6;
-	text-decoration: none;
-	text-align: justify;
 	border: dotted yellowgreen;
 	list-style: none;
+	display: flex;
+	text-align: start;
+	margin-bottom: 0;
+	margin-inline-start: 0;
+	margin-top: 0;
 }
 
 .aboutKatharine { 
