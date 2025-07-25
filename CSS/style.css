@@ -18,12 +18,13 @@ body {
 	padding: 5px;
 	border: dashed aqua;
 	margin-inline: auto;
+	max-width: 1000px;
+	margin-left: 100px;
 }
 
 
 header {
-	background-color: #4f18e7;
-	border: dotted red; 
+	background-color: #4f18e7; 
 	display: flex; 
 	gap: 50px; 
 	justify-content: space-evenly;
@@ -38,7 +39,6 @@ header {
 }	
 
 .primary-navigation {
-	border: dashed chocolate;
 	list-style: none;
 }
 
@@ -71,7 +71,6 @@ h1 {
 	text-emphasis: strong;
 	color: #141414;
 	background-color: rgb(233, 230, 40);
-	border: dotted rgb(204, 238, 55);
 	text-align: center;
 	font-size: 3rem;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -85,14 +84,12 @@ h1 {
 h2 {
 	text-align: start;
 	text-decoration: none;
-	border: dashed green;
 	font-size: 2rem;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main {
 	background-color: #79c3e6;
-	border: dashed silver;
 	text-align: justify;
 	display: block;
 	padding: 15px; 
@@ -116,16 +113,12 @@ ul {
 	margin-left: 70px;
 }
 
-footer {
-	border: dotted rgb(198, 241, 78); 
-}
 
 .two-c {
 	display: grid;  
 	gap: 30px; 
 	margin-block-end: 60px;
 	background-color: yellow;
-	border: dotted red; 
 	@media (width > 600px) {
 		grid-template-columns: 1fr 1fr;
 		background-color: rgb(140, 67, 223);
@@ -165,7 +158,6 @@ td:nth-child(2n+1) {
 
 .footer {
 	background-color: #79c3e6;
-	border: dotted yellowgreen;
 	list-style: none;
 	display: flex;
 	text-align: start;
@@ -176,7 +168,6 @@ td:nth-child(2n+1) {
 
 .aboutKatharine { 
 	background-image: url("../Reidy_HDR_PORTRAIT.jpg");
-	border: dotted rgb(128, 0, 96);
 	color: rgb(37, 14, 92);
 	padding: 12px; 
 	background-size: cover;

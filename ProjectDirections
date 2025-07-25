@@ -94,12 +94,5 @@ must work in all browsers.
 
 
 NOTES 
-- Fix navigation bar 
-- Get color dropper for chicago flag and or photos - create a color swatch 
-- check for accessibility of colors 
-- write and add content 
-    - developer page 
-    - history page 
-    - photos for info pages 
-- create video? 
-- manage photo sizes  
+- Need to add content to the history page.  Otherwise, all project requirements are complete. 
+- Public website through Github https://katharinereidy.github.io/FinalProjectCIS181/main.html tested on multiple browsers. 
